@@ -1,0 +1,7 @@
+$(function(){
+  $("button#show").click(function() {
+    var temperature = $("input:radio[name=weather]:checked").val();
+    var passport = $("input:radio[name=weather]:checked").val();
+    var activity = $("input:radio[name=activity]:checked").val();
+  });
+});
