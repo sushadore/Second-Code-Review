@@ -4,6 +4,9 @@ $(function() {
     var passport = $("input:radio[name=passport]:checked").val();
     var activity = $("input:radio[name=activity]:checked").val();
 
+    $("#survey-hidden").hide();
+    $("button#survey").show();
+
     if (temperature === "warm" && passport === "yes") {
     $("#cabo").show();
     $("#neworleans").hide();
@@ -25,5 +28,10 @@ $(function() {
     $("#london").hide();
     $("#parkcity").show();
   }
+  });
+
+  $("button#survey").click(function() {
+    $("#survey-hidden").show();
+    $("button#survey").hide();
   });
 });
