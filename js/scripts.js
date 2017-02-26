@@ -6,9 +6,12 @@ $(function() {
 
     if (temperature === "warm" && passport === "yes") {
     $("#cabo").show();
-    $("#neworleans").hide();
-    $("#london").hide();
-    $("#parkcity").hide();
-    }
+  } else if (temperature === "warm" && passport === "no") {
+    $("#neworleans").show();
+  } else if (temperature === "cool" && passport === "yes") {
+    $("#london").show();
+  } else if (temperature === "cool" && passport === "no") {
+    $("#parkcity").show();
+  }
   });
 });
