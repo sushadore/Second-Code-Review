@@ -9,7 +9,7 @@ This webpage makes vacation recommendations based on survey input.
 
 ## Setup/Installation Requirements
 
-Follow this link in your browser:
+Follow this link in your browser: https://sushadore.github.io/Second-Code-Review/
 
 ## Technologies Used
 * HTML
